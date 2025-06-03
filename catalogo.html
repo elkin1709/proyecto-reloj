@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+        <a href="#" class="logo">LuxTime</a>
+            
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="pag.html">Inicio</a></li>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#detalle">Detalle del Producto</a></li>
+                    <li><a href="#historia">Historia</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="catalogo" class="section-padded">
+            <div class="container">
+                <h2>Nuestro Catálogo</h2>
+                <div class="filters">
+                    <select>
+                        <option value="">Material</option>
+                        <option value="acero">Acero</option>
+                        <option value="oro">Oro</option>
+                        <option value="cuero">Cuero</option>
+                    </select>
+                    <input type="range" min="0" max="5000" value="2500">
+                    <span>Rango de precios: $0 - $5000</span>
+                    <button class="btn-filter">Vista Cuadrícula</button>
+                    <button class="btn-filter">Vista Lista</button>
+                </div>
+                <div class="catalog-grid">
+                    <div class="product-card">
+                        <img src="./img/reloj 1/472_1.webp" alt="Producto 1">
+                        <h3>Reloj CURREN REF. 472 Negro/Doradoo</h3>
+                        <p class="price">$118.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="producto-detallado.html"> Ver Detalles</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 2/355platanegro.webp" alt="Producto 2.1">
+                        <h3>Reloj PULSO TITÁN REF. 814 Plata</h3>
+                        <p class="price">$219.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="producto-detallado.html"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability agotado">Agotado</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 3/FullSizeRender_8e443288-72cc-494c-bb79-64a8bd6c905f.webp" alt="Producto 3">
+                        <h3>Reloj Curren REF: 242 Negro/Azul</h3>
+                        <p class="price">$119.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 4/472_6_30293878-5044-4ae9-81d2-c63eea946bc8.webp" alt="Producto 4">
+                        <h3>Reloj CURREN REF. 472 Plata/Rojo</h3>
+                        <p class="price">$118.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/relo 5/61635410-1747761302_1.webp" alt="Producto 5">
+                        <h3>Reloj Curren REF. 419 Miel/Negro</h3>
+                        <p class="price">$127.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability agotado">Agotado</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/relo 6/2906fotoproducto.webp" alt="Producto 6">
+                        <h3>Reloj PULSO Ref. 2906</h3>
+                        <p class="price">$258.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 7/235_6.webp" alt="Producto 7">
+                        <h3>Reloj Curren REF: 235 Café</h3>
+                        <p class="price">$131.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/relo 8/383negrorojo2.webp" alt="Producto 8">
+                        <h3>Reloj PULSO Ref. 738 Negro/Rojo</h3>
+                        <p class="price">$132.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 9/242_7.webp" alt="Producto 9">
+                        <h3>Reloj Curren REF: 242 Plata/Blanco</h3>
+                        <p class="price">$119.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability agotado">Agotado</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 10/692_4.webp" alt="Producto 10">
+                        <h3>Reloj Curren REF. 692 Plata/Blanco</h3>
+                        <p class="price">$111.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 11/419_5.webp" alt="Producto 11">
+                        <h3>Reloj Curren REF. 419 Negro</h3>
+                        <p class="price">$127.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 12/2905-platafotoproducto.webp" alt="Producto 12">
+                        <h3>Reloj PULSO Ref. 2905</h3>
+                        <p class="price">$218.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 13/WhatsAppImage2020-12-01at20.02.59 (1).webp" alt="Producto 13">
+                        <h3>Reloj Yazole REF. 580 Negro</h3>
+                        <p class="price">$107.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability agotado">Agotado</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 14/702_1.webp" alt="Producto 14">
+                        <h3>Reloj CURREN REF. 702 Plata/Negro</h3>
+                        <p class="price">$111.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 15/2908.webp" alt="Producto 15">
+                        <h3>Reloj PULSO Ref. 2908</h3>
+                        <p class="price">$253.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 16/472pl-ng.webp" alt="Producto 16">
+                        <h3>Reloj CURREN REF. 472 Plata/Negro</h3>
+                        <p class="price">$253.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 17/383DEFRENTEAZUL.webp" alt="Producto 17">
+                        <h3>Reloj PULSO REF. 738 Negro/Azul</h3>
+                        <p class="price">$118.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability agotado">Agotado</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 18/242_4_90d91951-fb50-40ec-b173-c52dacb7dabb.webp" alt="Producto 18">
+                        <h3>Reloj Curren REF: 242 Plata/Beige</h3>
+                        <p class="price">$132.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 19/514_5.webp" alt="Producto 19">
+                        <h3>Reloj CURREN REF. 514 Miel/Negro</h3>
+                        <p class="price">$187.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/reloj 20/2903.webp" alt="Producto 20">
+                        <h3>Reloj PULSO Ref. 2903</h3>
+                        <p class="price">$268.990,00</p>
+                        <button class="cart">
+                            <a class="cart-enlace" href="#"> Añadir al Carrito</a>
+                        </button>
+                        <span class="availability in-stock">En stock</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+</html>

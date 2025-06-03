@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+        <a href="#" class="logo">LuxTime</a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="pag.html">Inicio</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="#detalle">Detalle del Producto</a></li>
+                    <li><a href="#historia">Historia</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="detalle" class="section-padded bg-light">
+            <div class="container product-detail-layout">
+                <div class="product-image-area">
+                    <img src="./img/reloj 1/472_1.webp" alt="Imagen del Producto con Zoom" class="main-product-img">
+                </div>
+                <div class="product-info-area">
+                    <h2>Nombre del Producto Detallado</h2>
+                    <p class="price">$2.500 USD</p>
+                    <h3>Descripción Técnica:</h3>
+                    <ul>
+                        <li>**Material:** Acero Inoxidable 316L</li>
+                        <li>**Movimiento:** Automático Suizo</li>
+                        <li>**Diámetro:** 40mm</li>
+                        <li>**Peso:** 150g</li>
+                        <li>**Resistencia al agua:** 10 ATM</li>
+                    </ul>
+                    <h3>Opciones de Personalización (simulado):</h3>
+                    <div class="personalization-options">
+                        <label for="grabado">Grabado:</label>
+                        <select id="grabado">
+                            <option value="none">Sin grabado</option>
+                            <option value="texto">Texto personalizado</option>
+                        </select>
+                        <label for="correa">Correa:</label>
+                        <select id="correa">
+                            <option value="acero">Acero</option>
+                            <option value="cuero-negro">Cuero Negro</option>
+                            <option value="cuero-marron">Cuero Marrón</option>
+                        </select>
+                    </div>
+                    <button class="btn">Añadir al Carrito (Simulado)</button>
+                </div>
+            </div>
+            <div class="container section-padded-sm">
+                <h3>Productos Relacionados</h3>
+                <div class="related-products-carousel">
+                    <div class="related-product-card">
+                        <img src="https://via.placeholder.com/150x150?text=Rel+R1" alt="Relacionado 1">
+                        <h4>Reloj Relacionado 1</h4>
+                        <p class="price-small">$1.200 USD</p>
+                    </div>
+                    <div class="related-product-card">
+                        <img src="https://via.placeholder.com/150x150?text=Rel+R2" alt="Relacionado 2">
+                        <h4>Reloj Relacionado 2</h4>
+                        <p class="price-small">$1.800 USD</p>
+                    </div>
+                    <div class="related-product-card">
+                        <img src="https://via.placeholder.com/150x150?text=Rel+R3" alt="Relacionado 3">
+                        <h4>Reloj Relacionado 3</h4>
+                        <p class="price-small">$900 USD</p>
+                    </div>
+                    <div class="related-product-card">
+                        <img src="https://via.placeholder.com/150x150?text=Rel+R4" alt="Relacionado 4">
+                        <h4>Reloj Relacionado 4</h4>
+                        <p class="price-small">$2.500 USD</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+</body>
+</html>
