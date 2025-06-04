@@ -12,7 +12,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: rgb(202, 202, 202);
     padding-top: 70px; /
 }
 
@@ -37,13 +37,18 @@ body {
 }
 
 .btn-history {
-    display: inline-block;
+    width: 15rem;
+    text-align: center;
+    display: block;
     background-color: #333;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    margin: 20px auto 0 auto;
 }
+
+
 
 .btn-history:hover {
     background-color: #555;
@@ -57,12 +62,36 @@ body {
 }
 
 .btn-small {
-    padding: 8px 15px;
-    font-size: 0.9em;
-    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    border-radius: 30px;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #606060;
+    text-shadow: 0 1px #fff;
     text-decoration: none;
-    color: #000;
-    background-color: #b1b0b0;
+    margin: 20px auto 0 auto;
+}
+
+.btn-small:hover {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+}
+
+.btn-small:active {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+
+.btn-small:focus {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
 }
 
 /* --- Secciones Comunes --- */
@@ -89,7 +118,7 @@ h2 {
 .header {
     background-color: #333;
     color: white;
-    padding: 15px 0;
+    padding: 10px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -107,11 +136,10 @@ h2 {
 .logo {
     width: 10rem;
     height: 5rem;
-    padding: 15px;
+    padding: 12px;
     color: #ffd700;
     text-decoration: none;
     font-size: 28px;
-    font-weight: bold;
     letter-spacing: 1px;
 }
 
@@ -619,12 +647,17 @@ h2 {
 
 .timeline-content {
     flex-grow: 1;
-    background-color: white;
+    background-color: rgb(109, 109, 109);
+    color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     padding: 25px;
     position: relative;
     max-width: 45%; 
+}
+
+.timeline-content:hover{
+    transform: scale(1.1)
 }
 
 .timeline-event:nth-child(odd) .timeline-content {
@@ -668,7 +701,10 @@ h2 {
     height: 250px; 
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    
 }
+
+
 
 
 
